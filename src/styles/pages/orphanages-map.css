@@ -43,6 +43,8 @@
     right: 40px;
     bottom: 40px;
 
+    z-index: 10;
+
     width: 64px;
     height: 64px;
 
@@ -53,6 +55,10 @@
     align-items: center;
 
     transition: background-color 0.2s;
+}
+
+#page-map .leaflet-container {
+    z-index: 5;
 }
 
 #page-map .create-orphanage:hover {
